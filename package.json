@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build:css": "sass src/style.scss src/style.css --style=compressed --no-source-map",
+    "format": "npx prettier . --write",
+    "dev": "npx vite dev"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "sass": "^1.91.0",
+    "vite": "^6.3.5"
+  },
+  "prettier": {
+    "semi": true,
+    "printWidth": 120,
+    "singleQuote": false
+  }
+}
