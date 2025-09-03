@@ -1,7 +1,7 @@
 import GamePlay from "./GamePlay";
 
-const gameContainer = document.querySelector(".game-container");
 import { points } from "./GamePlay";
+const gameContainer = document.querySelector(".game-container");
 
 export default class Game {
   constructor() {
